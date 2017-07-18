@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "Works with Gmail API",
   "main": "index.js",
-  "engines": {
-    "node": "7.10.0"
-  },
   "scripts": {
+    "pretest": "eslint verifyCredentials.js --fix",
     "test": "exit 0"
   },
   "author": "Pavel Nedelko",
@@ -14,5 +12,8 @@
   "dependencies": {
     "elasticio-sailor-nodejs": "^2.1.6",
     "googleapis": "^20.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0"
   }
 }
