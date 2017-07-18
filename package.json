@@ -9,6 +9,7 @@
   "author": "Pavel Nedelko",
   "license": "ISC",
   "dependencies": {
-    "elasticio-sailor-nodejs": "^2.1.6"
+    "elasticio-sailor-nodejs": "^2.1.6",
+    "googleapis": "^20.1.0"
   }
 }
