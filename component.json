@@ -1,0 +1,35 @@
+{
+  "title": "Google Gmail",
+  "description": "Email from Google",
+  "url": "http://www.google.com/gmail/",
+  "env": [
+    "CLIENT_ID",
+    "CLIENT_SECRET"
+  ],
+  "credentials": {
+    "fields": {
+      "oauth": {
+        "label": "Authentication",
+        "viewClass": "OAuthFieldView",
+        "required": true
+      }
+    },
+    "oauth2": {
+      "client_id": "{{CLIENT_ID}}",
+      "client_secret": "{{CLIENT_SECRET}}",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://accounts.google.com/o/oauth2/token",
+      "scopes": [
+        "https://www.googleapis.com/auth/gmail.readonly"
+      ],
+      "access_type": "offline",
+      "prompt": "consent"
+    }
+  },
+  "triggers": {
+
+  },
+  "actions": {
+
+  }
+}

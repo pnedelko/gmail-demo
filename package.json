@@ -1,0 +1,11 @@
+{
+  "name": "gmail-component",
+  "version": "1.0.0",
+  "description": "Works with Gmail API",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "Pavel Nedelko",
+  "license": "ISC"
+}
