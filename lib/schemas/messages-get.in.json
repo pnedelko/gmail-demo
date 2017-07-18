@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "number",
+      "required": false,
+      "title": "User ID"
+    },
+    "id": {
+      "type": "number",
+      "required": true,
+      "title": "Message ID"
+    },
+    "format": {
+      "type": "string",
+      "required": false,
+      "title": "Format",
+      "enum": ["full", "metadata", "minimal", "raw"]
+    },
+    "fields": {
+      "type": "string",
+      "required": false,
+      "title": "Fields"
+    }
+  }
+}

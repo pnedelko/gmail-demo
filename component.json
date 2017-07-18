@@ -30,10 +30,16 @@
     "messages-list": {
       "main": "./lib/triggers/messages-list.js",
       "type": "polling",
-      "title": "Get messages"
+      "title": "Get messages list"
     }
   },
   "actions": {
-
+    "messages-get": {
+      "main": "./lib/actions/messages-get.js",
+      "title": "Get message",
+      "metadata": {
+        "in": "./lib/schemas/messages-get.in.json"
+      }
+    }
   }
 }
