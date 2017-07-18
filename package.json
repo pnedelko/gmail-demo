@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Works with Gmail API",
   "main": "index.js",
+  "engines": {
+    "node": "7.10.0"
+  },
   "scripts": {
     "test": "exit 0"
   },
