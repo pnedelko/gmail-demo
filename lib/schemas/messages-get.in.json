@@ -2,12 +2,12 @@
   "type": "object",
   "properties": {
     "userId": {
-      "type": "number",
+      "type": "string",
       "required": false,
       "title": "User ID"
     },
     "id": {
-      "type": "number",
+      "type": "string",
       "required": true,
       "title": "Message ID"
     },
