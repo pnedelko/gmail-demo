@@ -4,7 +4,7 @@
   "description": "Works with Gmail API",
   "main": "index.js",
   "engines": {
-    "node": "7.10.0"
+    "node": "8.1.4"
   },
   "scripts": {
     "pretest": "eslint verifyCredentials.js lib --fix",
