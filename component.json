@@ -27,6 +27,11 @@
     }
   },
   "triggers": {
+    "messages-new": {
+      "main": "./lib/triggers/messages-new.js",
+      "type": "polling",
+      "title": "Get new messages"
+    },
     "messages-list": {
       "main": "./lib/triggers/messages-list.js",
       "type": "polling",
